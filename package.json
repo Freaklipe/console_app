@@ -1,0 +1,25 @@
+{
+  "name": "console_app",
+  "version": "1.0.0",
+  "description": "Aplicación básica de tipo consola que implementa un CRUD a través de la manipulación de un STRING. Todo esto usando JS y librerías para facilitar la interacción.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freaklipe/console_app.git"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freaklipe/console_app/issues"
+  },
+  "homepage": "https://github.com/Freaklipe/console_app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^9.2.7",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.0"
+  }
+}
