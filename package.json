@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Freaklipe/console_app#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^9.2.7",
+    "inquirer": "^8.2.5",
     "moment": "^2.29.4",
     "uuid": "^9.0.0"
   }

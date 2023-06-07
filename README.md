@@ -14,7 +14,10 @@ Para uso del código, basta con la instalación de los módulos
 
 ## Paquetes npm
 * colors
-* inquirer
+* inquirer: por motivos de compatibilidad la version instalada fue la 8 
+        
+        npm install --save inquirer@^8.0.0 
+
 * moment
 * uuid
 
