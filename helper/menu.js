@@ -26,7 +26,7 @@ const master = async () => {
         },
         {
             value: '3',
-            name: '4. Exit'
+            name: '4. Exit'.red
         }
     ];
 
