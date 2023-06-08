@@ -6,7 +6,7 @@ class Note {
     constructor( description = ''){
         this._id = uuidv4(),
         this._description = description,
-        this._date = moment().format('dddd Do MMMM')
+        this._date = moment().format('DD-MM-YYYY')
     };
 
 };

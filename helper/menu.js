@@ -18,11 +18,11 @@ const master = async () => {
         },
         {
             value: '1',
-            name: 'Delete'
+            name: 'List'
         },
         {
             value: '2',
-            name: 'List'
+            name: 'Delete'
         },
         {
             value: '3',
@@ -39,12 +39,7 @@ const master = async () => {
         }
     ];
 
-    
-
-    console.log(separator_a);
-    console.log(separator_b + title + separator_b);
-    console.log(separator_a);
-    console.log(moment().format('dddd Do MMMM'));
+    console.log(`${moment().format('dddd Do MMMM').yellow}\n${separator_a}\n${separator_b + title + separator_b}\n${separator_a}`);
 
     const resp = await inquirer.prompt( questions );
 
