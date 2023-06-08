@@ -14,19 +14,19 @@ const master = async () => {
     const choices = [
         {
             value: '0',
-            name: 'Create'
+            name: '1) Create'
         },
         {
             value: '1',
-            name: 'List'
+            name: '2) List'
         },
         {
             value: '2',
-            name: 'Delete'
+            name: '3) Delete'
         },
         {
             value: '3',
-            name: 'Exit'
+            name: '4) Exit'
         }
     ];
 
