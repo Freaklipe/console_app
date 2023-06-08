@@ -20,5 +20,13 @@ Recordar instalar módulos node
 
 * moment
 * uuid
+* pkg
+
+
+## Crear .exe
+Gracias al paquete pkg se puede crear un ejecutable de SO, siempre respetando la existencia del directorio `db` para la persistencia de los datos. Además, se agregó la propiedad `bin: app.js` en package.json con el nombre final del ejecutable.
+
+        pkg --compress GZip -t node14-win .
+
 
         

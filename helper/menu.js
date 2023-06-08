@@ -9,7 +9,7 @@ const master = async () => {
 
     const separator_a = '########################################################'.cyan;
     const separator_b = '#'.cyan;
-    const title = '                   Menu de Datos                      '.blue; 
+    const title = '                   Menu de Notas                      '.blue; 
 
     const choices = [
         {

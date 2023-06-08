@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Aplicación básica de tipo consola que implementa un CRUD a través de la manipulación de un STRING. Todo esto usando JS y librerías para facilitar la interacción.",
   "main": "app.js",
+  "bin": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
